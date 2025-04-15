@@ -28,7 +28,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['94726976376']
+const ownerNumber = ['94787351423']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -162,17 +162,17 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               }
             }
 //================ownerreact
-if(senderNumber.includes("94751629685")){
+if(senderNumber.includes("94787351423")){
 if(isReact) return
 m.react("👑")
 }
 
-if(senderNumber.includes("94751629685")){
+if(senderNumber.includes("94787351423")){
 if(isReact) return
 m.react("👑")
 }
 
-if(senderNumber.includes("94751629685")){
+if(senderNumber.includes("94787351423")){
 if(isReact) return
 m.react("🦋")
    }
